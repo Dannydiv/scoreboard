@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">          
+    <title>Basketball Scoreboard</title>
+    
+</head>
+<body>
+    <div id="section">
+    <div class="container">
+
+        <div>
+            <h1>HOME</h1>
+            <div class="scorespace">
+                <h2 id="home">0</h2>
+            </div> 
+
+           <div class="cont">
+                <button class="btn" onclick="add1Point()">+1</button>
+                <button class="btn" onclick="add2Point()">+2</button>
+                <button class="btn" onclick="add3Point()">+3</button>
+            </div>
+        </div>
+
+        <div>
+            
+            <h1>GUEST</h1>
+            <div class="scorespace"> <h2 id="guest">0</h2></div>
+            
+            <div class="cont">
+                <button class="btn" onclick="addPoint1()">+1</button>
+                <button class="btn" onclick="addPoint2()">+2</button>
+                <button class="btn" onclick="addPoint3()">+3</button>
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+    <button id="newGame" onclick="strtNewGame()">NEW GAME</button>
+</div>
+
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
