@@ -1,12 +1,12 @@
 body{
-    background-color: rgba(196, 178, 238, 0.055);
+    background-color: #9AABD8;
     font-family: sans-serif;
     margin: 0px;
   
 }
 
 #section{
-    margin: 20px auto auto auto;
+    margin: 50px auto auto auto;
     /* padding-top: 50px; */
     background-color: rgb(4, 4, 78);
     width: 80%;
